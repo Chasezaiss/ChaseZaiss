@@ -1,0 +1,62 @@
+
+  body {
+    background-color: #EEF1FF;
+
+  }
+
+  hr {
+    border-style: Dotted none none ;
+    height: 10px;
+    width: 3%;
+    border-width: 7px;
+    border-color: black;
+
+  }
+  h1{
+    color: #AAC4FF;
+    text-align: center;
+
+  }
+  h3{
+    color: #AAC4FF;
+    text-align: center;
+
+  }
+  h2{
+    color: #AAC4FF;
+    text-align: center;
+
+  }
+  h4{
+    color: #AAC4FF;
+    text-align: center;
+
+  }
+  h5{
+    color: #AAC4FF;
+    text-align: center;
+
+  }
+  h6{
+    color: #AAC4FF;
+    text-align: center;
+
+  }
+  li{
+    text-align: center;
+  }
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  p{
+    text-align: center;
+  }
+Thead{
+  text-align: center;
+}
+Tbody{
+  text-align: center;
+}
