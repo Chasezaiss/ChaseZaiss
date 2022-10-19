@@ -1,11 +1,37 @@
-//alert("hello");
+$(".clickable").click(function () {
+    var colors = ["Red", "Blue", "Green", "White"];
+    var classes = this.classList[3];
+    var n = 0;
+    switch (i = this.classList[3]) {
+        case i = "glowRed":
+            n = 1;
+            
+            break;
+        case i = "glowBlue":
+            n = 2;
+            break;
+        case i = "glowGreen":
+            n = 3;
+            break;
+        case i = "glowWhite":
+            n = 0;
+            break;
+        default: console.log("issue");
+    }
+    var glowColor = "glow" + colors[n];
+    this.classList.remove(classes);
+    this.classList.add(glowColor);
+})
 
 
-    //$(".light").fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
 
-/*$(document).ready(function () {
 
-    $('body').animate({ backgroundColor: '#ffcc00' }).wait(500)
-        .animate({ backgroundColor: '#eeeeee' }).wait(500)
-        .animate({ backgroundColor: '#3b5998' }).wait(500)
-});*/
+
+
+
+
+
+ /*var randomNumber =  Math.floor(4 * Math.random());
+    
+    
+    */
