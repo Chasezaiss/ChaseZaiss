@@ -5,7 +5,7 @@ $(".clickable").click(function () {
     switch (i = this.classList[3]) {
         case i = "glowRed":
             n = 1;
-            
+
             break;
         case i = "glowBlue":
             n = 2;
@@ -31,7 +31,7 @@ $(".clickable").click(function () {
 
 
 
- /*var randomNumber =  Math.floor(4 * Math.random());
-    
-    
-    */
+/*var randomNumber =  Math.floor(4 * Math.random());
+   
+   
+   */

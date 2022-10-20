@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+}
+
+.clickable {
+}
+
+.block {
+    width: 100%;
+    height: 7%;
+    background-color: #0d6efd;
+    z-index: -100;
+}
+
+.light {
+    width: 0.25%;
+    height: 5px;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+.lightEnd {
+    width: 0.25%;
+    height: 3px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.light::before {
+    content: '';
+    pointer-events: none;
+    top: -10px;
+    position: absolute;
+    transform: translateZ(-1px);
+    width: 2800%;
+    height: 28px;
+    border-bottom: 1px solid #3C4048;
+    border-radius: 50%;
+}
+
+.glowBlue {
+    background-color: blue;
+    animation: glowBlue 0.8s infinite;
+}
+
+.glowWhite {
+    background-color: white;
+    animation: glow 0.8s infinite;
+}
+
+.glowGreen {
+    background-color: Green;
+    animation: glowGreen 0.8s infinite;
+}
+
+.glowRed {
+    background-color: red;
+    animation: glowRed 0.8s infinite;
+}
+
+.pos15 {
+    position: relative;
+    float: left;
+    left: 97%;
+}
+
+.pos14 {
+    position: relative;
+    float: left;
+    left: 90%;
+}
+
+.pos13 {
+    position: relative;
+    float: left;
+    left: 83%;
+}
+
+.pos12 {
+    position: relative;
+    float: left;
+    left: 76%;
+}
+
+.pos11 {
+    position: relative;
+    float: left;
+    left: 69%;
+}
+
+.pos10 {
+    position: relative;
+    float: left;
+    left: 62%;
+}
+
+.pos9 {
+    position: relative;
+    float: left;
+    left: 55%;
+}
+
+.pos8 {
+    position: relative;
+    float: left;
+    left: 48%;
+}
+
+.pos7 {
+    position: relative;
+    float: left;
+    left: 41%;
+}
+
+.pos6 {
+    position: relative;
+    float: left;
+    left: 34%;
+}
+
+.pos5 {
+    position: relative;
+    float: left;
+    left: 27%;
+}
+
+.pos4 {
+    position: relative;
+    float: left;
+    left: 20%;
+}
+
+.pos3 {
+    position: relative;
+    float: left;
+    left: 13%;
+}
+
+.pos2 {
+    position: relative;
+    float: left;
+    left: 6%;
+}
+
+.pos1 {
+    position: relative;
+    float: left;
+    left: -1%;
+}
+
+
+
+@keyframes glowRed {
+    0% {
+        box-shadow: 0 1px 15px 7px red;
+    }
+
+    25% {
+        box-shadow: 0 1px 20px 7px red;
+    }
+
+    50% {
+        box-shadow: 0 1px 15px 7px red;
+    }
+
+    75% {
+        box-shadow: 0 1px 10px 6px red;
+    }
+
+    100% {
+        box-shadow: 0 1px 15px 7px red;
+    }
+}
+
+@keyframes glowBlue {
+    0% {
+        box-shadow: 0 1px 20px 7px blue;
+    }
+
+    25% {
+        box-shadow: 0 1px 15px 7px blue;
+    }
+
+    50% {
+        box-shadow: 0 1px 10px 7px blue;
+    }
+
+    75% {
+        box-shadow: 0 1px 15px 7px blue;
+    }
+
+    100% {
+        box-shadow: 0 1px 20px 7px blue;
+    }
+}
+
+@keyframes glowGreen {
+    0% {
+        box-shadow: 0 1px 15px 7px green;
+    }
+
+    25% {
+        box-shadow: 0 1px 10px 7px green;
+    }
+
+    50% {
+        box-shadow: 0 1px 15px 7px green;
+    }
+
+    75% {
+        box-shadow: 0 1px 20px 7px green;
+    }
+
+    100% {
+        box-shadow: 0 1px 15px 7px green;
+    }
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 1px 10px 7px white;
+    }
+
+    25% {
+        box-shadow: 0 1px 15px 7px white;
+    }
+
+    50% {
+        box-shadow: 0 1px 20px 7px white;
+    }
+
+    75% {
+        box-shadow: 0 1px 15px 7px white;
+    }
+
+    100% {
+        box-shadow: 0 1px 10px 7px white;
+    }
+}
